@@ -1,5 +1,4 @@
 // template 
-
 #include <algorithm>
 #include <array>
 #include <cassert>

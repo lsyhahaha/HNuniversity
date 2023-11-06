@@ -1,0 +1,1 @@
+  // int case2 = A[i] % k;
