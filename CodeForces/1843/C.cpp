@@ -15,7 +15,7 @@ void solve()
         ans += n;
         n = n / 2;
     }
-
+    
     // output
     cout << ans << endl;
 }
