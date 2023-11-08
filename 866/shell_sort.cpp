@@ -24,8 +24,7 @@ void ShellSort(int A[], int n)
     }
 }
 
-int main()
-{
+int main() {
     // 建立一个原始的乱序的数组
     int A[] = {0, 7, 9, 2, 1, 4, 5, 8, 23, 22, 34, 11, 54}; // 第一个只是作为哨兵
     printf("排序之前： \n");

@@ -3,6 +3,14 @@ using namespace std;
 
 
 void solve() {
+    string s;
+    cin >> s;
+
+    // main
+    if (s == "abc" || s == "acb" || s == "bac" || s == "cba")
+        cout << "Yes" << endl;
+    else 
+        cout << "No" << endl;
 }
 
 int main()

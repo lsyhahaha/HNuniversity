@@ -1,8 +1,19 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+void solve()
+{
+    // input
+    int n;
+    cin >> n;
+    string s;
+    cin >> s;
 
-void solve() {
+    // main 
+    cout << s[n -1] << endl;    
+
+    // output
+
 }
 
 int main()

@@ -1,56 +1,20 @@
-// #include <iostream>
-
-// using namespace std;
-
-// const int N = 100010;
-
-
-// typedef struct edge {
-//     int val;
-//     struct edge *next;
-// }*edge;
-
-// typedef struct adj{
-//     int data;
-//     struct edge *first;
-// }*Adjlist;
-
-// typedef struct Graph{
-//     int vecnum;
-//     int edgenum;
-//     Adjlist adjlist[N];
-// }*Graph;
-
-// void InAndOut(Graph g) {
-//     //求出图g各个顶点的入度和出度
-
-//     // 入度
-//     int answer[N];
-//     for (int i = 0; i < N; i++) {
-//         // 遍历每一个链表 p
-//         Adjlist curNode = g->adjlist[i]; 
-
-//         edge head = curNode->first; // 第i个链表的表头
-
-//         while(head != nullptr) {// 遍历第i个链表中的每天结点
-//             // head->val 表示存在一条指向head-val的边
-//             answer[head->val] ++;
-//             head = head->next;
-//         }
-//     }
-
-//     for(int i = 1; i < N; i++) {
-//         cout << answer[i] << " " << endl;
-//     }
-
-//     // 出度
-// }
-
-#include <iostream>
-
+#include <bits/stdc++.h>
 using namespace std;
 
-int main() {
-    cout << __cplusplus << endl;
+
+void solve() {
+}
+
+int main()
+{
+    ios_base::sync_with_stdio(false), cin.tie(nullptr);
+
+    int t;
+    cin >> t;
+    while (t --) {
+        solve();
+        // cout << (solve() ? "Yes" : "No");
+        // cout << solve() << endl;
+    }
     return 0;
 }
