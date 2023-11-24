@@ -1,8 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
+typedef long long ll;
 
 
 void solve() {
+    string s;
+    cin >> s;   
+
+    if(s[0] == 'R') {
+        
+    }
 }
 
 int main()
