@@ -15,6 +15,7 @@ void solve() {
             tar = arr[i];
         }
     }
+    
     for(int i = minpos; i < n - 1; i ++) {
         if (arr[i] > arr[i + 1]) {
             cout << -1 << endl;
@@ -25,8 +26,7 @@ void solve() {
     cout << minpos << endl;
 }
 
-int main()
-{
+int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr), cout.tie(nullptr);
 
